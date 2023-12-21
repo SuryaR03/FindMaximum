@@ -10,30 +10,47 @@ To write a program to find the maximum of a list of numbers.
 3.	Return the maximum value
 ## Program:
 
-i)	# To find the maximum of marks using the list method sort.
-```Python
+i)	# To find the maximum of marks using the list method sort.![image](https://github.com/SuryaR03/FindMaximum/assets/147140237/7a65d294-d7a1-4ad8-af55-084307dc1b4e)
 
-
-
-```
-
+''' 
+Program to mark the maximum of marks using the list method sort
+Developed by: SURYA R
+RegisterNumber: 23013019
+'''
+def max_marks(marks):
+    marks.sort()
+    large = marks[-1]
+    return large
+    
 ii)	# To find the maximum marks using the list method max().
-```Python
-
-
-
-```
+''' 
+Program to find the maximum marks using the list method max().
+Developed by:SURYA R 
+RegisterNumber: 23013019
+'''
+def max_marks(marks):
+    large = max(marks)
+    return large
 
 iii) # To find the maximum marks without using builtin functions.
-```Python
-
-
-
-```
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: SURYA R
+RegisterNumber: 23013019
+'''
+def max_marks(list1):
+    max=list1[0]
+    for i in list1:
+        if i>max:
+            max=i
+    return max        
 ## Sample Input and Output
 ![output](./img/max_marks1.jpg) 
 
 ## Output:
+![Screenshot 2023-12-21 154939](https://github.com/SuryaR03/FindMaximum/assets/147140237/fd147874-41d6-48d0-b123-2d130761fc35)
+![Screenshot 2023-12-21 155412](https://github.com/SuryaR03/FindMaximum/assets/147140237/64f66e4d-b1a2-4614-abc5-abbbbf33d75a)
+![Screenshot 2023-12-21 155444](https://github.com/SuryaR03/FindMaximum/assets/147140237/65bf3d44-d55d-4234-8eb1-57abdcee63b5)
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
