@@ -10,8 +10,7 @@ To write a program to find the maximum of a list of numbers.
 3.	Return the maximum value
 ## Program:
 
-i)	# To find the maximum of marks using the list method sort.![image](https://github.com/SuryaR03/FindMaximum/assets/147140237/7a65d294-d7a1-4ad8-af55-084307dc1b4e)
-
+i)	# To find the maximum of marks using the list method sort.
 ''' 
 Program to mark the maximum of marks using the list method sort
 Developed by: SURYA R
